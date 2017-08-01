@@ -1,0 +1,23 @@
+{
+  "name": "lockify",
+  "version": "1.0.0",
+  "description": "If your promise-returning function can't run concurrently, lockify it!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/testdouble/lockify.git"
+  },
+  "keywords": [
+    "promise",
+    "lock"
+  ],
+  "author": "Neal Lindsay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testdouble/lockify/issues"
+  },
+  "homepage": "https://github.com/testdouble/lockify"
+}
