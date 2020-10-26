@@ -5,7 +5,7 @@ const lockify = f => {
     const result = lock.then(() => f(...params))
     lock = result.catch(() => {})
 
-    return result
+    return result.then(value => value)
   }
 }
 
