@@ -1,10 +1,10 @@
-function lockify(f) {
-  var lock = Promise.resolve()
-  return function () {
-    var params = [].slice.apply(arguments)
-    var result =
-      lock.then(function () { return f.apply(undefined, params) })
-    lock = result.catch(function () {})
+const lockify = f => {
+  let lock = Promise.resolve()
+
+  return (...params) => {
+    const result = lock.then(() => f(...params))
+    lock = result.catch(() => {})
+
     return result
   }
 }
