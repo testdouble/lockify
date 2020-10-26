@@ -1,6 +1,6 @@
 {
   "name": "lockify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "If your promise-returning function can't run concurrently, lockify it!",
   "main": "index.js",
   "scripts": {
