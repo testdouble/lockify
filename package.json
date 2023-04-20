@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/testdouble/lockify",
   "devDependencies": {
-    "teenytest": "^6.0.2",
+    "teenytest": "^6.0.5",
     "teenytest-promise": "^1.0.0"
   },
   "teenytest": {
