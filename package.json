@@ -1,7 +1,7 @@
 {
   "name": "lockify",
-  "version": "1.0.1",
-  "description": "If your promise-returning function can't run concurrently, lockify it!",
+  "version": "2.0.0",
+  "description": "If your async function shouldn't run concurrently, lockify it!",
   "scripts": {
     "test": "teenytest"
   },
@@ -10,8 +10,10 @@
     "url": "git+ssh://git@github.com/testdouble/lockify.git"
   },
   "keywords": [
-    "promise",
-    "lock"
+    "async",
+    "concurrency",
+    "lock",
+    "promise"
   ],
   "author": "Neal Lindsay <neal.lindsay@gmail.com>",
   "license": "ISC",
