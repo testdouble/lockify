@@ -1,1 +1,2 @@
-module.exports = require('./lib/lockify')
+import lockify from './lib/lockify.js'
+export default lockify

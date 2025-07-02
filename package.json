@@ -27,5 +27,6 @@
     "plugins": [
       "teenytest-promise"
     ]
-  }
+  },
+  "type": "module"
 }

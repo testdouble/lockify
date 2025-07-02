@@ -1,13 +1,13 @@
-const assert = require('assert').strict
+import assert from 'node:assert/strict'
+import lockify from '../../lib/lockify.js'
 
-let lockify, subject, runCount, controllers, f
+let subject, runCount, controllers, f
 
 const wait = ms => new Promise(resolve => setTimeout(resolve, ms))
 
-module.exports = {
+export default {
   'lockify': {
     beforeEach: () => {
-      lockify = require('../../')
       runCount = 0
       controllers = []
       f = () =>
