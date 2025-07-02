@@ -15,6 +15,7 @@
   ],
   "author": "Neal Lindsay <neal.lindsay@gmail.com>",
   "license": "ISC",
+  "main": "index.js",
   "bugs": {
     "url": "https://github.com/testdouble/lockify/issues"
   },
@@ -28,5 +29,6 @@
       "teenytest-promise"
     ]
   },
-  "type": "module"
+  "type": "module",
+  "types": "index.d.ts"
 }
