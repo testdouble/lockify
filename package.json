@@ -31,6 +31,13 @@
       "teenytest-promise"
     ]
   },
+  "files": [
+    "README.md",
+    "index.d.ts",
+    "index.js",
+    "lib/lockify.js",
+    "package.json"
+  ],
   "type": "module",
   "types": "index.d.ts"
 }
